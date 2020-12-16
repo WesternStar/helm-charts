@@ -1897,6 +1897,10 @@ prometheus:
     ## Number of Prometheus replicas desired
     ##
     replicas: 1
+    
+    ## Number of Prometheus shards desired
+    ##
+    shards: 1
 
     ## Log level for Prometheus be configured in
     ##
